@@ -1,0 +1,33 @@
+# This is a non-active comment on a separate line
+imageType:
+  Original: { }
+  LoG: { 'sigma': [ 0.5, 3.0 ] }  # This is a non active comment on a line with active code preceding it.
+  Wavelet:
+    wavelet: 'rbio1.1'
+    binWidth: 10
+  Square: {}
+
+
+featureClass:
+  glcm: [ ]
+  glrlm: [ ]
+  firstorder: [ ]
+  shape2D: [ ]
+  glszm: [ ]
+  ngtdm: [ ]
+  gldm: [ ]
+  shape: [ ]
+#          - Volume
+#    - SurfaceArea
+
+
+setting:
+  normalize: True
+#  resegmentShape: True
+#  correctMask: True
+  label: 1
+#  force2D: True
+  binWidth: 25
+#  resampledPixelSpacing: [ 240, 240,155 ]
+  interpolator: 'sitkBSpline'  #
+  weightingNorm: #
